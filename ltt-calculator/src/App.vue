@@ -1,14 +1,16 @@
 <template>
-  <div id="app">
-    <LTTCalculator msg="Land Transfer Tax Calculator" />
-  </div>
+  <v-app id="wp-vue-app">
+    <v-content>
+    <LTTCalculator msg="Land Transfer Tax Calculator" description="This is the calculator description"/>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
 import LTTCalculator from "./components/LTTCalculator.vue";
 
 export default {
-  name: "Land Transfer Tax Calculator",
+  name: "lttCalculator",
   components: {
     LTTCalculator,
   },
@@ -20,7 +22,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
   margin-top: 60px;
 }
