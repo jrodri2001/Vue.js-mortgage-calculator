@@ -1,7 +1,7 @@
 <template>
   <v-app id="wp-vue-app">
     <v-content>
-    <LTTCalculator msg="Land Transfer Tax Calculator" description="This is the calculator description"/>
+    <LTTCalculator msg="Land Transfer Tax Calculator" description=""/>
     </v-content>
   </v-app>
 </template>
